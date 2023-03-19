@@ -44,3 +44,12 @@ In this repository, I push at least seven solutions every week to showcase my un
 
 > Now you have a local copy of the repository on your machine, and you can start working with the code.
 
+#### CREDITS:
+visitor count https://dev.to/ryanlanciaux/visitor-count-on-your-github-profile-with-one-line-of-markdown-593g
+
+structure & syntax
+https://dillinger.io/
+
+code block
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks
+

@@ -10,7 +10,7 @@
 // All inputs will be strings, consisting only of characters ( and ).
 // Empty strings are considered balanced (and therefore valid), and will be tested.
 // For languages with mutable strings, the inputs should not be mutated.
-
+==
 
 function validParentheses(parenStr) {
     // empty arr

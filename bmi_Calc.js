@@ -10,14 +10,14 @@
 
 
 function bmi(weight, height) {
-  let bmiP = weight / (height * height)
+  let bmiP = weight / (height * height);
   if(bmiP <= 18.5 ){
-    return "Underweight"
+    return("Underweight");
   }else if(bmiP <= 25.0){
-    return "Normal"
+    return ("Normal");
   }else if(bmiP <= 30.0){
-    return "Overweight"
+    return ("Overweight");
   }else{
-    return "Obese"
+    return ("Obese");
   }
 }

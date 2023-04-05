@@ -14,12 +14,12 @@
 
 // Requested maximum length will be greater than 0. Input string will not be empty.
 
-function trim(string, max_length) {
-  if (max_length <= 3) {
-    return string.slice(0, max_length) + "...";
-  } else if (string.length > max_length) {
-    return string.slice(0, max_length - 3) + "...";
+function trim(str, maxLength) {
+  if (str.length <= maxLength) {
+    return str;
+  } else if (maxLength <= 3) {
+    return str.slice(0, maxLength) + "...";
   } else {
-    return string;
+    return str.slice(0, maxLength - 3) + "...";
   }
 }

@@ -20,16 +20,16 @@
 
 
 function sortMyString(S) {
-   let evenChar = "";
-  let  oddChar = "";
+   let evenChars = "";
+  let  oddChars = "";
   
   for(let i= 0; i < S.length; i++){
     if(i % 2 === 0){
-      evenChar += S[i]
+      evenChars += S[i]
     }else{
-      oddChar += S[i]
+      oddChars += S[i]
     }
    
   }
-   return evenChar + " "+ oddChar
+   return evenChars + " "+ oddChars
 }

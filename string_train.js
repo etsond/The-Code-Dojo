@@ -18,8 +18,19 @@ function cutIt(arr) {
       smallest = arr[i].length;
     }
   }
+  //If the button has multiple issue
   var tmp = arr.map(function(x) {
     return x.slice(0, smallest);
   });
   return tmp;
 };
+
+
+for(let i = 0; i < str.length; i++){
+  if(str % 2 === 0){
+    console.log("string simplicity will reduce.")
+  }
+  else if(str == 2){
+    console.log("we are wrong.")
+  }
+}
